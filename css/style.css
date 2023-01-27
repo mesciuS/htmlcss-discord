@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container-centered {
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* navbar */
+nav {
+    background-color: #255ee9;
+    color: white;
+}
+
+.nav-primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+
+.link {
+    display: flex;
+    align-items: stretch;
+}
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 1em;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+.btn-login {
+    background-color: white;
+    color: black;
+}
+
+/*navbar */
+
+/* header */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: bottom;
+
+    color: white;
+
+}
+.jumbo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 400px;
+    max-width: 600px;
+
+    padding: 40px 0;
+
+    text-align: center;
+
+    gap: 1em;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+.btn-uno {
+    background-color: white;
+    color: black;
+}
+
+.btn-due {
+    background-color: black;
+    color: white;
+}
+/* header */
+
+
+/* fin qui tutto corretto */
+
+
+/* main */
+.disc-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 30px;
+}
+
+
+.disc-section-img {
+    width: 100%
+}
+
+main h2 {
+    margin-bottom: 1em;
+}
+
+main p {
+    line-height: 150%;
+}
+
+.disc-section:nth-of-type(even) {
+    background-color: #f6f6f6;
+    flex-direction: row-reverse;
+}
+
+.last-disc-section {
+    text-align: center;
+    background-color: #f6f6f6;
+
+}
+
+.last-disc-section h2 {
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+
+.last-disc-section p {
+    padding: 1em;
+}
+
+.last-disc-section img {
+    width: 100%;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.last-btn {
+    background-color: #7289da;
+    color: white;
+}
+/* main */
