@@ -185,6 +185,8 @@ main p {
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    
+    padding-bottom: 40px;
 }
 
 .last-btn {
@@ -192,3 +194,58 @@ main p {
     color: white;
 }
 /* main */
+
+/* footer */
+
+footer {
+
+    background-color: #23272a;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+    padding: 30px;
+
+    border-bottom: 1px solid #7289c9;
+}
+
+footer strong {
+    display: flex;
+    flex-direction: column;
+    color: #7289da;
+    margin-bottom: 1em;
+}
+
+.footer-uno h3 {
+    width: 100%;
+    margin-bottom: 1em;
+    color: #7289da;
+}
+
+.footer-uno img {
+    height: 1em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 10px;
+    background-color: #23272a;
+}
+
+
